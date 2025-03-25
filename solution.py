@@ -1,5 +1,7 @@
 # https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
 class solution :
+  # use the right-hand rule to solve the problem 
+  # https://en.wikipedia.org/wiki/Maze-solving_algorithm#Wall_follower
   def turn_around():
       turn_left()
       turn_left()
